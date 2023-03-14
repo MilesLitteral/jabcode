@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jabcodeWriter", "jabcodeWriter\jabcodeWriter.vcxproj", "{26B7EC1C-39F7-481A-BC21-CF45AF82E404}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26B7EC1C-39F7-481A-BC21-CF45AF82E404}.Debug|x64.ActiveCfg = Debug|x64
+		{26B7EC1C-39F7-481A-BC21-CF45AF82E404}.Debug|x64.Build.0 = Debug|x64
+		{26B7EC1C-39F7-481A-BC21-CF45AF82E404}.Debug|x86.ActiveCfg = Debug|Win32
+		{26B7EC1C-39F7-481A-BC21-CF45AF82E404}.Debug|x86.Build.0 = Debug|Win32
+		{26B7EC1C-39F7-481A-BC21-CF45AF82E404}.Release|x64.ActiveCfg = Release|x64
+		{26B7EC1C-39F7-481A-BC21-CF45AF82E404}.Release|x64.Build.0 = Release|x64
+		{26B7EC1C-39F7-481A-BC21-CF45AF82E404}.Release|x86.ActiveCfg = Release|Win32
+		{26B7EC1C-39F7-481A-BC21-CF45AF82E404}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EB7E60C-E485-492B-802E-EE0DE0E0FECE}
+	EndGlobalSection
+EndGlobal

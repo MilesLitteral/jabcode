@@ -1,19 +1,16 @@
 PREFIX 	=
 CC 	= $(PREFIX)gcc
-AR 	= $(PREFIX)ar
-RANLIB	= $(PREFIX)ranlib
 CFLAGS	= -O2 -std=c11
 
-TARGET = build/libjabcode.a
+TARGET = build/libjabcode.dll
 
-OBJECTS := $(patsubst %.c,%.o,$(wildcard *.c))
+OBJECTS = $(patsubst %.c,%.o,$(wildcard *.c))
 
 $(TARGET): $(OBJECTS)
-	$(AR) cru $@ $?
-	$(RANLIB) $@
+	$(CC) $^ -L./lib/win64 -ltiff -lpng16 -lz -lm -shared $(CFLAGS) -o $@
 
 $(OBJECTS): %.o: %.c
-	$(CC) -c -I. -I./include $(CFLAGS) $< -o $@
+	$(CC) -c -I. -I./include $(CFLAGS) $< -o $@	
 
 clean:
 	rm -f $(TARGET) $(OBJECTS)
